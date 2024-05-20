@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+html, body {
+    height: 100vh; /* Pastikan html dan body memiliki tinggi 100% */
+    overflow: hidden;
+}
+
+body {
+    background-image: url("/asset/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 25px;
+}
+
+.web {
+    font-size: 17px;
+    color: #8d5353;
+}
+
+span {
+    color: #805757;
+}
+
+.div-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+div img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.containt {
+    border: 3px solid white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 30px auto 0;
+    font-size: 25px;
+    height: 40px;
+    width: 80%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 15px 0px rgba(220, 216, 216, 0.75);
+}
+
+.containt:hover {
+    background-color: #524e4e;
+}
+
+.containt a {
+    text-decoration: none;
+    color: white;
+    /* margin-left: 20px; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containt a i {
+    margin-right:30px; /* Atur jarak antara ikon dan teks */
+}
+
+.containt i {
+    color: white;
+}
