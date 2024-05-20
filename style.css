@@ -10,7 +10,7 @@ html, body {
 }
 
 body {
-    background-image: url("/asset/bg.jpg");
+    background-image: url("./asset/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
